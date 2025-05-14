@@ -5,5 +5,8 @@ for_each = var.storage_account_name
     account_tier = each.value.tier
     account_replication_type = each.value.replication
     resource_group_name = each.value.rg_name
-  
+
+
+
+
 }
